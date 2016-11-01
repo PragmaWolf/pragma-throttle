@@ -1,0 +1,8 @@
+*.log
+*.sublime-*
+.DS_Store
+.idea
+node_modules
+npm-debug.log
+*_dev*
+*_development*
