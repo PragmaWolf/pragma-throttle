@@ -4,7 +4,7 @@ Module for cycle throttling with sync and async methods. Has linear increase or 
 
 ## Used and tested on ##
 
-- NodeJS 7+ [Documentation](https://nodejs.org/dist/latest-v5.x/docs/api/)
+- NodeJS 7+ [Documentation](https://nodejs.org/dist/latest/docs/api/)
 
 ## Navigation
 
