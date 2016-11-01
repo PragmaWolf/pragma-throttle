@@ -1,6 +1,6 @@
 # PragmaThrottle #
 
-Module for cycle throttling with sync and async methods. Has linear, random and manual delay.
+Module for cycle throttling with sync and async methods. Has linear increase or decrease, random increase and manual increase delay.
 
 ## Used and tested on ##
 
@@ -12,13 +12,12 @@ Module for cycle throttling with sync and async methods. Has linear, random and 
 - [Initialization](#initialization)
 - [Options](#options)
 - [Methods](#methods)
-    
 - [License](#license)
 
 ## Install ##
 
 ```bash
-npm i -save pragma-throttle
+npm i --save pragma-throttle
 ```
 
 ## Initialization ##
@@ -36,7 +35,7 @@ const Throttle = new Throttler(throttleDelays);
 
 ## Options ##
 
-Delay options:
+#### Delay options: ####
 
 ```json
 {
@@ -55,7 +54,7 @@ __delayStep__ - `number` - Increase/decrease the delay at each iteration to the 
 
 __delayMax__ - `number` - The maximum delay.
 
-Throttled objects options:
+#### Throttled objects options: ####
 
 ```json
 {
