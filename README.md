@@ -169,6 +169,14 @@ Return always TRUE
 Automatically random delay increase in the time between `delayDefault` and `delayMax`. 
 Put it into throttled function or method.
 
+### stop() ###
+
+Stop throttling and clear timeouts.
+
+### reset() ###
+
+Stop throttling, clear timeouts and reset delay settings to defaults.
+
 # License #
 
 [wtfpl]: wtfpl-badge-1.png "WTFPL License :)"
