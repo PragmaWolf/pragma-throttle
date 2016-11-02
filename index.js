@@ -332,6 +332,26 @@ class PragmaThrottle {
                 console.error(error);
             });
     }
+
+    /**
+     * Stop throttling and clear timeouts.
+     */
+    stop() {
+        let self = this;
+
+        clearTimeout(self.throttled);
+        self.throttled = false;
+    }
+
+    /**
+     * Stop throttling, clear timeouts and reset delay settings to defaults.
+     */
+    reset() {
+        let self = this;
+
+        self.stop();
+        self.setOptions();
+    }
 }
 
 module.exports = PragmaThrottle;
