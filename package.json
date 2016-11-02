@@ -1,6 +1,6 @@
 {
   "name": "pragma-throttle",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Module for cycle throttling with sync and async methods. Has linear, random and manual delay.",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "author": "Dmitry Furman <pragmawolf@gmail.com>",
   "license": "WTFPL",
   "devDependencies": {
-    "eslint": "^3.8.1",
+    "eslint": "^3.9.1",
     "eslint-config-google": "^0.7.0"
   }
 }
