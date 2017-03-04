@@ -24,7 +24,7 @@
   "author": "Dmitry Furman <pragmawolf@gmail.com>",
   "license": "WTFPL",
   "devDependencies": {
-    "eslint": "^3.9.1",
-    "eslint-config-google": "^0.7.0"
+    "eslint": "^3.17.0",
+    "eslint-config-google": "^0.7.1"
   }
 }
